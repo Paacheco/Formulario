@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_descripcion_contacto">Descripción del contacto</string>
+    <string name="boton_siguiente">Siguiente</string>
+</resources>

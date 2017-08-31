@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mamp.formulario.SolicitaDatos"
+    >
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txtInLayNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1dp"
+        tools:layout_constraintRight_creator="1dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/top_views">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtInEdiTxtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+   <android.support.design.widget.TextInputLayout
+       android:id="@+id/txtInLayTelefono"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/txtInLayNombre"
+       android:layout_marginTop="@dimen/top_views"
+       >
+
+       <android.support.design.widget.TextInputEditText
+           android:id="@+id/txtInEdiTxtTelefono"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/hint_telefono"
+           />
+
+   </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_siguiente"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
